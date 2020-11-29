@@ -1,0 +1,38 @@
+.mcq{
+    display: flex;
+    align-items: center;
+   
+}
+.mcq__optionInput{
+    font-size: 1rem;
+    width: 90%;
+    height:40px;
+    margin-top: 15px;
+   
+    padding-top:5px;
+    padding-left:10px;
+    border-radius: 10px;
+   
+    outline: none;
+    
+    border-color: #A9A9A9;
+    
+
+}
+.mcq__optionButton{
+    margin-top: 30px;
+    width: 15%;
+    height: 30px;
+    border: none;
+   
+   
+    border-radius: 5px;
+   
+    color: #7B68EE;
+    margin-left: 15px;
+    transform: scale(2);
+    padding-bottom: 5px;
+
+
+    
+}

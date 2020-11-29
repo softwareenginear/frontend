@@ -1,0 +1,28 @@
+
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  
+
+}
+.home{
+  background-color: rgb(10, 10, 77);
+  min-height: 100vh;
+  color:white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.active{
+ color:white;
+  background-color: pink;
+}
+.App .editor{
+  width: 900px;
+  margin-left: 20%;
+  margin-top: 50px;
+  border: 1px solid black;
+  height: 50vh;
+}
+

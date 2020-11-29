@@ -1,0 +1,17 @@
+.mcqquestion__input{
+    width: 100%;
+    height:80px;
+    margin-top: 0px;
+    border-radius: 10px;
+   
+    padding: 0px 10px 5px 10px;
+    padding-top:5px;
+    border-color: #A9A9A9;
+    
+    outline: none;
+    font-size: 1rem;
+}
+.mcqQuestion__div{
+    display: flex;
+   
+}

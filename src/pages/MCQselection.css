@@ -1,0 +1,65 @@
+.MCQselection{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 80vh;
+    margin-top: 50px;
+   
+}
+.MCQselection__dateandyear{
+    margin-top: 20px;
+    
+
+}
+.MCQselection__subject,.MCQselection__system,.MCQselection__board,.MCQselection__series,.MCQselection__paper{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.MCQselection__subject>label,.MCQselection__system>label,.MCQselection__board>label,.MCQselection__series>label,.MCQselection__paper>label{
+    margin-right: 40px;
+    font-weight: 500;
+}
+.MCQselection__dateandyear>Label{
+    /* margin-right: 70px; */
+    margin-left: 60px;
+    font-weight: 500;
+}
+.MCQselection>div>input{
+    outline: none;
+    border: none;
+    border-bottom: 4px solid #7B68EE;  
+    padding-left: 10px;
+}
+.dateTimePicker{
+    outline: none;
+    border: none;
+    margin-left:20px;
+    border-bottom: 4px solid #7B68EE;  
+
+}
+.MCQselection__button{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 30px;
+   
+    border: none;
+    border-radius: 5px;
+    background-color:#7B68EE;
+   
+    color: whitesmoke;
+    
+}
+.MCQselection__button>button{
+    text-decoration: none;
+    background-color:#7B68EE;
+    border: none;
+    color: white;
+    text-align: center;
+    padding-left: 40px;
+}
