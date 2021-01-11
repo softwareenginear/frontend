@@ -4,7 +4,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN apk add --no-cache git
 RUN npm ci
-RUN npm install react-scripts@3.4.1 -g
+RUN npm install -g
 COPY . ./
 RUN npm run build
 
