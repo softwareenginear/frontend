@@ -1,10 +1,10 @@
 # build env
-FROM node:12.11.1-alpine as build
+FROM 14.15.4-alpine3.12 as build
 WORKDIR /app
 COPY package*.json ./
 RUN apk add --no-cache git
 RUN npm ci
-RUN npm install react-scripts@3.4.1 -g
+RUN npm install react-scripts@4.0.1 -g
 COPY . ./
 RUN npm run build
 
