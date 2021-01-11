@@ -1,5 +1,5 @@
 # build env
-FROM 14.15.4-alpine3.12 as build
+FROM node:14.15.4-alpine as build
 WORKDIR /app
 COPY package*.json ./
 RUN apk add --no-cache git
